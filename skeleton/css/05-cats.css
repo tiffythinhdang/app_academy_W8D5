@@ -1,0 +1,68 @@
+/* PHASE 5: Cats */
+.content-header {
+  background-image: url(../images/cats.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 900px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.inner-header {
+  width: 660px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-name {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+
+.add-friend {
+  margin-right: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 12px 20px;
+  font-weight: bold;
+}
+
+.profile-picture {
+  display: block;
+  margin-top: -100px;
+}
+
+.profile-picture a img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.profile-info {
+  margin: 25px 0px;
+}
+
+.profile-nav {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+}
+
+.profile-nav a {
+  border-top: 1px solid gray;
+  padding: 5px 0px;
+  font-weight: bold;
+}
+
+.profile-nav a:hover {
+  background-color: grey;
+  color: white;
+}
